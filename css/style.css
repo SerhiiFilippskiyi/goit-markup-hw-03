@@ -32,18 +32,19 @@ li {
   margin-bottom: 25px;
   padding-right: 93px;
 }
+.link-studio,
+.link-portfolio{
+ padding-right: 100px;
+}
+.contact-tel{
+  padding-left: 100px;
+}
 .nav-box{
   display: flex;
   margin-top: 32px;
   margin-bottom: 32px;
-  padding-right: 331px;
+  margin-right: 331px;
   margin-left: 215px;
-}
-.header-link{
-  padding-right: 50px;
-}
-.link-portfolio {
-  padding-left: 50px;
 }
 .web {
  font-family: Raleway;
@@ -63,10 +64,9 @@ li {
  background-color: var(--primary-white-color);
 }
 .header-contacts-container{
- margin-right: 215px;
  margin-top: 32px;
  margin-bottom: 32px;
- padding-left: 331px;
+ margin-left: 1078px;
 }
 .header-link{
  font-family: Roboto;
