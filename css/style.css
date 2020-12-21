@@ -1,0 +1,230 @@
+element.style {
+ display: flex;
+}
+:root {
+--primary-text-color: #757575;
+--title-text-color: #000000;
+--accent-text-color: #2196f3;
+--primary-white-color: #ffffff;
+--secondary-background-color: #2F303A;
+}
+body {
+ background-color: var(--primary-white-color);
+ color: var(--primary-text-color) ;
+ font-family: "Raleway", sans-serif;
+ font-style: normal;
+ font-weight: bold;
+}
+a {
+ text-decoration: none;
+} 
+li {
+ list-style-type: none;
+}
+/*логотип, меню навигации*/
+.header .header-logo{
+ font-family: Raleway;
+ font-size: 26px;
+ line-height: 31px;
+ letter-spacing: 0.03em;
+ 
+}
+.header-logo{
+  margin-left: 145px;
+  margin-top: 31px;
+}
+.nav-box{
+  display: flex;
+  margin-left: 294px;
+  margin-top: 31px;
+}
+.web {
+ font-family: Raleway;
+ font-size: 26px;
+ line-height: 31px;
+ letter-spacing: 0.03em;
+ color: var(--accent-text-color);
+}
+.studio {
+ font-family: Raleway;
+ font-size: 26px;
+ line-height: 31px;
+ letter-spacing: 0.03em;
+ color: var(--title-text-color);
+}
+.header{
+ background-color: var(--primary-white-color);
+ 
+ 
+}
+.header-link{
+ font-family: Roboto;
+ font-weight: 500;
+ font-size: 14px;
+ line-height: 16px;
+ letter-spacing: 0.02em;
+ color: var(--title-text-color);
+}
+.header-contact{
+ font-family: Roboto;
+ font-weight: 500;
+ font-size: 14px;
+ line-height: 16px;
+ letter-spacing: 0.02em;
+ color: var(--primary-text-color);
+}
+.heder-contacts :hover,
+.header-contacts :focus{
+ color: var(--accent-text-color);
+}
+.header-navigation .header-link :hover,
+.header-navigation .header-link :focus{
+ color: var(--accent-text-color);
+ }
+/*банер и кнопка*/
+.baner{
+ background-color: var(--secondary-background-color);
+}
+.baner-text{
+ font-family: Roboto;
+ font-weight: 900;
+ font-size: 44px;
+ line-height: 60px;
+ text-align: center;
+ letter-spacing: 0.06em;
+ text-transform: uppercase;
+ color: var(--primary-white-color);
+}
+.baner-buttons :hover, 
+.baner-buttons:focus {
+ background-color: var(--accent-text-color); 
+ color: var(--primary-white-color);
+}
+.baner-buttons{
+ font-family: Robot
+ font-size: 16px;
+ line-height: 35px;
+ display: flex;
+ align-items: center;
+ text-align: center;
+ letter-spacing: 0.06em;
+ color: var(--primary-white-color);
+ background-color: var(--accent-text-color);
+ }
+
+ /*текст приимущества*/
+
+.post-title{
+ font-family: Roboto;
+ font-size: 14px;
+ line-height: 16px;
+ letter-spacing: 0.03em;
+ text-transform: uppercase;
+ color: var(--title-text-color);
+  }
+.post-text{
+ font-family: Roboto;
+ font-weight: normal;
+ font-size: 14px;
+ line-height: 24px;
+ letter-spacing: 0.03em;
+  }
+  
+  /*примеры рабоы*/
+
+  .post-work{
+ font-family: Roboto;
+ font-size: 36px;
+ line-height: 42px;
+ text-align: center;
+ letter-spacing: 0.03em;
+ color: var(--title-text-color);
+}
+ 
+/*команда*/
+
+  .post-team{
+ font-family: Roboto;
+ font-size: 36px;
+ line-height: 42px;
+ text-align: center;
+ letter-spacing: 0.03em;
+ color: var(--title-text-color);
+}
+.name{
+ font-family: Roboto;
+ font-weight: 500;
+ font-size: 16px;
+ line-height: 19px;
+ letter-spacing: 0.03em;
+ color: var(--title-text-color);
+}
+.position{
+ font-family: Roboto;
+ font-weight: normal;
+ font-size: 16px;
+ line-height: 19px;
+ letter-spacing: 0.03em;
+}
+
+/*футер навигация*/
+
+.footer {
+ background: var(--secondary-background-color);
+}
+.footerstudio {
+ font-family: Raleway;
+ font-size: 26px;
+ line-height: 31px;
+ letter-spacing: 0.03em;
+ color: var(--primary-white-color);
+}
+.footer-map{
+ font-family: Roboto;
+ font-weight: normal;
+ font-size: 14px;
+ line-height: 24px;
+ letter-spacing: 0.03em;
+ color: var(--primary-white-color);
+}
+.footer-contacts{
+ font-family: Roboto;
+ font-style: normal;
+ font-weight: normal;
+ font-size: 14px;
+ line-height: 24px;
+ letter-spacing: 0.03em;
+ color: var(--primary-text-color);
+}
+address :focus,
+address :hover{
+ color: var(--accent-text-color);
+}
+
+/*страница портфолио*/
+
+.buttons-section :hover,
+.buttons-section :focus{
+ color: var(--primary-white-color);
+ background-color: var(--accent-text-color);
+}
+.name-project{
+ font-family: Roboto;
+ font-size: 18px;
+ line-height: 36px;
+ letter-spacing: 0.06em;
+ color: var(--title-text-color);
+}
+.tipe-project{
+ font-family: Roboto;
+ font-weight: normal;
+ font-size: 16px;
+ line-height: 30px;
+ letter-spacing: 0.03em;
+}
+                              
+                              
+
+
+  
+  
