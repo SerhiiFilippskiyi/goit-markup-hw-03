@@ -27,17 +27,14 @@ li {
  
 }
 .header-logo{
-  
   margin-top: 24px;
   margin-bottom: 25px;
   padding-right: 93px;
+  box-sizing: border-box;
 }
 .link-studio,
 .link-portfolio{
- padding-right: 100px;
-}
-.contact-tel{
-  padding-left: 100px;
+ padding-right: 50px;
 }
 .nav-box{
   display: flex;
@@ -45,6 +42,7 @@ li {
   margin-bottom: 32px;
   margin-right: 331px;
   margin-left: 215px;
+  flex: auto;
 }
 .web {
  font-family: Raleway;
