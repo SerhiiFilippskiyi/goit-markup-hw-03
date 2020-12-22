@@ -18,31 +18,33 @@ a {
 li {
  list-style-type: none;
 }
+.list{
+  padding: 0;
+  margin: 0;
+}
 /*логотип, меню навигации*/
-.header .header-logo{
+.conteiner{
+   margin-left: auto;
+   margin-right: auto;
+   width: 1170px;
+   outline: 2px solid blue;
+   margin-bottom: 0px;
+}
+.header-logo{
  font-family: Raleway;
  font-size: 26px;
  line-height: 31px;
  letter-spacing: 0.03em;
- 
 }
-.header-logo{
-  margin-top: 24px;
-  margin-bottom: 25px;
-  padding-right: 93px;
-  box-sizing: border-box;
+.header-logo,
+.header-navigation,
+.head-mail,
+.head-phone{
+outline: 2px solid red;
 }
-.link-studio,
-.link-portfolio{
- padding-right: 50px;
-}
+
 .nav-box{
   display: flex;
-  margin-top: 32px;
-  margin-bottom: 32px;
-  margin-right: 331px;
-  margin-left: 215px;
-  flex: auto;
 }
 .web {
  font-family: Raleway;
@@ -58,13 +60,18 @@ li {
  letter-spacing: 0.03em;
  color: var(--title-text-color);
 }
-.header{
- background-color: var(--primary-white-color);
+.head-mail{
+  margin-right: 15px;
 }
-.header-contacts-container{
- margin-top: 32px;
- margin-bottom: 32px;
- margin-left: 1078px;
+.header{
+ display: flex;
+ background-color: var(--primary-white-color);
+ position: absolute;
+ width: 1600px;
+ height: 80px;
+ left: 0px;
+ top: 0px;
+
 }
 .header-link{
  font-family: Roboto;
@@ -92,17 +99,30 @@ li {
  }
 /*банер и кнопка*/
 .baner{
- background-color: var(--secondary-background-color);
+  position: absolute;
+  width: 1600px;
+  height: 600px;
+  left: 0px;
+  top: 80px;  
+  background-color: var(--secondary-background-color);
+
 }
 .baner-text{
  font-family: Roboto;
  font-weight: 900;
  font-size: 44px;
- line-height: 60px;
- text-align: center;
+ line-height: 1.3;
  letter-spacing: 0.06em;
  text-transform: uppercase;
  color: var(--primary-white-color);
+ margin-top: 0;
+ margin-bottom: 0;
+ text-align: center;
+ position: absolute;
+ width: 696px;
+ height: 120px;
+ left: 452px;
+ top: 280px;
 }
 .baner-buttons :hover, 
 .baner-buttons:focus {
@@ -113,12 +133,16 @@ li {
  font-family: Robot
  font-size: 16px;
  line-height: 35px;
- display: flex;
  align-items: center;
- text-align: center;
  letter-spacing: 0.06em;
+ text-align: center;
  color: var(--primary-white-color);
  background-color: var(--accent-text-color);
+ position: absolute;
+width: 200px;
+height: 50px;
+left: 700px;
+top: 430px;
  }
 
  /*текст приимущества*/
