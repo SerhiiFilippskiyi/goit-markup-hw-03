@@ -68,10 +68,6 @@ outline: 2px solid red;
  background-color: var(--primary-white-color);
  position: absolute;
  width: 1600px;
- height: 80px;
- left: 0px;
- top: 0px;
-
 }
 .header-link{
  font-family: Roboto;
@@ -99,11 +95,7 @@ outline: 2px solid red;
  }
 /*банер и кнопка*/
 .baner{
-  position: absolute;
   width: 1600px;
-  height: 600px;
-  left: 0px;
-  top: 80px;  
   background-color: var(--secondary-background-color);
 
 }
@@ -116,13 +108,8 @@ outline: 2px solid red;
  text-transform: uppercase;
  color: var(--primary-white-color);
  margin-top: 0;
- margin-bottom: 0;
+ margin-bottom: 30px;
  text-align: center;
- position: absolute;
- width: 696px;
- height: 120px;
- left: 452px;
- top: 280px;
 }
 .baner-buttons :hover, 
 .baner-buttons:focus {
@@ -135,14 +122,12 @@ outline: 2px solid red;
  line-height: 35px;
  align-items: center;
  letter-spacing: 0.06em;
- text-align: center;
- color: var(--primary-white-color);
- background-color: var(--accent-text-color);
  position: absolute;
-width: 200px;
-height: 50px;
-left: 700px;
-top: 430px;
+ width: 200px;
+ height: 50px;
+ border-radius: 4px;
+ color: var(--primary-white-color);
+ background-color: var(--accent-text-color);;
  }
 
  /*текст приимущества*/
