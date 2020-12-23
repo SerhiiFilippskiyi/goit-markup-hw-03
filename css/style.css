@@ -1,3 +1,8 @@
+*,
+::after,
+::before{
+box-sizing: border-box;
+}
 :root {
 --primary-text-color: #757575;
 --title-text-color: #000000;
@@ -19,55 +24,62 @@ li {
  list-style-type: none;
 }
 .list{
-  padding: 0;
-  margin: 0;
+  margin: 0px;
+  padding: 0px;
 }
 /*логотип, меню навигации*/
 .conteiner{
    margin-left: auto;
    margin-right: auto;
    width: 1170px;
-   outline: 2px solid blue;
-   margin-bottom: 0px;
+   margin-bottom: 1px;
+   height: 80px;
+   text-align: center;
 }
 .header-logo{
- font-family: Raleway;
  font-size: 26px;
  line-height: 31px;
  letter-spacing: 0.03em;
+ text-align: center;
+ margin-top: 24px;
+ margin-right: 93px;
 }
-.header-logo,
-.header-navigation,
-.head-mail,
+.header-navigation{
+  margin-top: 18px;
+}
+.head-link{
+ margin-right: 50px;
+}
+.head-mail{
+ margin-top: 18px;
+ margin-left: 331px;
+ margin-right: 50px;
+}
 .head-phone{
-outline: 2px solid red;
+ margin-top: 18px;
 }
-
 .nav-box{
   display: flex;
 }
 .web {
- font-family: Raleway;
  font-size: 26px;
  line-height: 31px;
  letter-spacing: 0.03em;
  color: var(--accent-text-color);
 }
 .studio {
- font-family: Raleway;
  font-size: 26px;
  line-height: 31px;
  letter-spacing: 0.03em;
  color: var(--title-text-color);
 }
-.head-mail{
-  margin-right: 15px;
-}
+
 .header{
  display: flex;
  background-color: var(--primary-white-color);
- position: absolute;
+ height: 80px;
  width: 1600px;
+ margin-bottom: 0pxpo;
 }
 .header-link{
  font-family: Roboto;
@@ -95,50 +107,61 @@ outline: 2px solid red;
  }
 /*банер и кнопка*/
 .baner{
-  width: 1600px;
-  background-color: var(--secondary-background-color);
-
+ background-color: var(--secondary-background-color);
+ width: 1600px;
+ height: 600px;
+ text-align: center;
+ margin-bottom: 94px;
 }
 .baner-text{
  font-family: Roboto;
+ font-style: normal;
  font-weight: 900;
  font-size: 44px;
- line-height: 1.3;
- letter-spacing: 0.06em;
- text-transform: uppercase;
+ line-height: 1.36;
  color: var(--primary-white-color);
- margin-top: 0;
+ margin-top: 0px;
  margin-bottom: 30px;
- text-align: center;
-}
-.baner-buttons :hover, 
-.baner-buttons:focus {
- background-color: var(--accent-text-color); 
- color: var(--primary-white-color);
+ padding-top: 200px;
 }
 .baner-buttons{
- font-family: Robot
- font-size: 16px;
- line-height: 35px;
- align-items: center;
- letter-spacing: 0.06em;
- position: absolute;
- width: 200px;
- height: 50px;
- border-radius: 4px;
- color: var(--primary-white-color);
- background-color: var(--accent-text-color);;
- }
-
+width: 200px;
+height: 50px;
+left: 700px;
+top: 430px;
+background: var(--accent-text-color);
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+border-radius: 4px;
+color: var(--primary-white-color);
+}
+button :hover,
+button :focus{
+ color: var(--accent-text-color);
+ background-color: var(--title-text-color);
+}
  /*текст приимущества*/
 
-.post-title{
+ .post-benefits{
+   
+ }
+ .benefits{
+   text-align: left;
+   width: 1170px;
+   height: 101px;
+   margin-left: 215px;
+   margin-right: 215px;
+   margin-top: 0px;
+   margin-bottom: 94px;
+  }
+ .post-title{
  font-family: Roboto;
  font-size: 14px;
  line-height: 16px;
  letter-spacing: 0.03em;
  text-transform: uppercase;
  color: var(--title-text-color);
+ margin-bottom: 10px;
+ margin-top: 0px;
   }
 .post-text{
  font-family: Roboto;
@@ -146,10 +169,28 @@ outline: 2px solid red;
  font-size: 14px;
  line-height: 24px;
  letter-spacing: 0.03em;
+ margin-right: 30px;
+ margin-top: 0px;
+  }
+  .post-text-text{
+    font-family: Roboto;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.03em;
+    margin-top: 0px; 
   }
   
   /*примеры рабоы*/
-
+ .our-work{
+  width: 1170px;
+  height: 386px;
+  margin-left: 215px;
+  margin-right: 215px;
+  margin-top: 0px;
+  margin-bottom: 182px;
+  text-align: center; 
+}
   .post-work{
  font-family: Roboto;
  font-size: 36px;
@@ -157,10 +198,23 @@ outline: 2px solid red;
  text-align: center;
  letter-spacing: 0.03em;
  color: var(--title-text-color);
+ margin-bottom: 50px;
+ margin-top: 0px;
+}
+.photo-work{
+margin-right: 30px;
+}
+.work{
+ padding: 0px;
+ margin: 0px;
 }
  
 /*команда*/
-
+.our-team{
+text-align: center;
+width: 1600px;
+height: 648px;
+}
   .post-team{
  font-family: Roboto;
  font-size: 36px;
@@ -168,6 +222,27 @@ outline: 2px solid red;
  text-align: center;
  letter-spacing: 0.03em;
  color: var(--title-text-color);
+ margin-bottom: 50px;
+ margin-top: 0px;
+}
+.photo-team{
+  padding: 0px;
+  margin: 0px;
+}
+.team-photo{
+  width: 1170px;
+  margin-left: 215px;
+  margin-right: 215px;
+  padding: 0px;
+}
+.team{
+  width: 270px;
+  height: 368px;
+  background:var(--primary-white-color);
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 0px 0px 4px 4px;
+  text-align: center;
+  margin-right: 30px;
 }
 .name{
  font-family: Roboto;
@@ -176,6 +251,7 @@ outline: 2px solid red;
  line-height: 19px;
  letter-spacing: 0.03em;
  color: var(--title-text-color);
+ margin-bottom: 10px;
 }
 .position{
  font-family: Roboto;
