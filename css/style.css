@@ -25,8 +25,8 @@ li {
   list-style-type: none;
 }
 .list {
-  margin: 0px;
-  padding: 0px;
+  margin: 0;
+  padding: 0;
 }
 /*логотип, меню навигации*/
 .conteiner {
@@ -359,4 +359,8 @@ address :hover {
   text-align: center;
   letter-spacing: 0.03em;
   color: var(--button-text-color);
+}
+.portfolio{
+  text-align: center;
+  justify-content: center;
 }
