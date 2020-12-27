@@ -326,6 +326,7 @@ address :hover {
   line-height: 36px;
   letter-spacing: 0.06em;
   color: var(--title-text-color);
+  text-align: left;
 }
 .tipe-project {
   font-family: Roboto;
@@ -333,23 +334,26 @@ address :hover {
   font-size: 16px;
   line-height: 30px;
   letter-spacing: 0.03em;
+  text-align: left;
 }
 .portfolio-container{
   width: 1170px;
   height: 1360px;
+  margin-left: 215px;
 }
 .buttons-container{
   display: flex;
   width: 611px;
   height: 54px;
-  margin-left: 495px;
+  margin-left: 280px;
   padding: 0px;
   justify-content: center;
 }
 .buttons{
-  width: 73px;
+  display: inline-block;
+  padding: 6px 22px;
+  width: max-content;
   height: 38px;
-  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
   border-radius: 4px;
   margin-right: 8px;
   font-family: Roboto;
@@ -359,8 +363,12 @@ address :hover {
   text-align: center;
   letter-spacing: 0.03em;
   color: var(--button-text-color);
+  background-color: var(--primary-white-color);
+  border-color: var(--primary-white-color);
+  border-width: 0px;
 }
 .portfolio{
   text-align: center;
   justify-content: center;
 }
+
