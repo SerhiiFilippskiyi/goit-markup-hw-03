@@ -10,7 +10,7 @@
   --primary-white-color: #ffffff;
   --secondary-background-color: #2f303a;
   --button-text-color: #212121;
-  --primary-background-color: #E5E5E5;
+  --primary-background-color: #e5e5e5;
 }
 
 body {
@@ -44,7 +44,7 @@ li {
 }
 /*логотип, меню навигации*/
 .header {
- background-color: var(--primary-white-color);
+  background-color: var(--primary-white-color);
 }
 .container {
   width: 1200px;
@@ -78,15 +78,15 @@ li {
   padding-top: 32px;
   padding-bottom: 32px;
 }
-.head-link:not(:last-child){
+.head-link:not(:last-child) {
   padding-right: 50px;
 }
-.header-contacts{
+.header-contacts {
   padding-left: 331px;
   padding-bottom: 32px;
   padding-top: 32px;
 }
-.head-phone{
+.head-phone {
   padding-left: 50px;
 }
 .header-link {
@@ -114,7 +114,7 @@ li {
   color: var(--accent-text-color);
 }
 /*банер и кнопка*/
-.baner{
+.baner {
   margin-bottom: 94px;
   background-color: var(--secondary-background-color);
 }
@@ -146,7 +146,7 @@ button :focus {
   color: var(--accent-text-color);
   background-color: var(--title-text-color);
 }
-.baner-button{
+.baner-button {
   padding-bottom: 200px;
 }
 /*текст приимущества*/
@@ -154,7 +154,7 @@ button :focus {
   margin-bottom: 94px;
 }
 .benefits {
-text-align: center;
+  text-align: center;
 }
 .post-title {
   font-family: Roboto;
@@ -167,16 +167,16 @@ text-align: center;
 }
 .post-text {
   font-family: Roboto;
-font-style: normal;
-font-weight: normal;
-font-size: 14px;
-line-height: 1.71;
-letter-spacing: 0.03em;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
 }
-.text{
+.text {
   text-align: left;
 }
-.text:not(:last-child){
+.text:not(:last-child) {
   padding-right: 30px;
 }
 /*примеры рабоы*/
@@ -192,15 +192,14 @@ letter-spacing: 0.03em;
   color: var(--title-text-color);
   padding-bottom: 50px;
 }
-.photo-work:not(:last-child){
+.photo-work:not(:last-child) {
   padding-right: 30px;
 }
 
-
 /*команда*/
 .our-team {
- background: #F5F4FA;
- margin-bottom: 6px;
+  background: #f5f4fa;
+  margin-bottom: 6px;
 }
 .post-team {
   font-family: Roboto;
@@ -212,7 +211,7 @@ letter-spacing: 0.03em;
   padding-top: 94px;
   padding-bottom: 50px;
 }
-.team-photo{
+.team-photo {
   justify-content: center;
 }
 .team {
@@ -222,7 +221,7 @@ letter-spacing: 0.03em;
   border-radius: 0px 0px 4px 4px;
   text-align: center;
 }
-.team:not(:last-child){
+.team:not(:last-child) {
   margin-right: 30px;
 }
 .name {
@@ -244,13 +243,12 @@ letter-spacing: 0.03em;
   padding-bottom: 30px;
 }
 
-
 /*футер навигация*/
 
 .footer {
   background: var(--secondary-background-color);
 }
-.footer-logo{
+.footer-logo {
   font-size: 26px;
   line-height: 1.19;
   letter-spacing: 0.03em;
@@ -273,7 +271,7 @@ letter-spacing: 0.03em;
   line-height: 1.71;
   color: var(--primary-white-color);
   padding-bottom: 9px;
-} 
+}
 
 .footer-contacts {
   font-family: Roboto;
@@ -284,7 +282,7 @@ letter-spacing: 0.03em;
   letter-spacing: 0.03em;
   color: var(--primary-text-color);
 }
-.footer-contacts:not(:last-child){
+.footer-contacts:not(:last-child) {
   padding-bottom: 9px;
 }
 address :focus,
@@ -293,7 +291,7 @@ address :hover {
 }
 
 /*страница портфолио*/
-.portfolio-container{
+.portfolio-container {
   background-color: var(--primary-white-color);
   padding-bottom: 64px;
 }
@@ -302,13 +300,13 @@ address :hover {
   color: var(--primary-white-color);
   background-color: var(--accent-text-color);
 }
-.buttons-container{
+.buttons-container {
   display: flex;
   justify-content: center;
   padding-top: 94px;
   padding-bottom: 34px;
 }
-.buttons{
+.buttons {
   display: inline-block;
   padding: 6px 22px;
   width: max-content;
@@ -325,7 +323,7 @@ address :hover {
   border-color: var(--primary-white-color);
   border-width: 0px;
 }
-.buttons-section:not(:last-child){
+.buttons-section:not(:last-child) {
   padding-right: 8px;
 }
 .name-project {
@@ -347,11 +345,11 @@ address :hover {
 }
 .project-one:not(:last-child),
 .project-two:not(:last-child),
-.project-thre:not(:last-child){
+.project-thre:not(:last-child) {
   padding-right: 30px;
 }
 .project-one,
 .project-two,
-.project-thre{
-  padding-bottom: 30px
+.project-thre {
+  padding-bottom: 30px;
 }
