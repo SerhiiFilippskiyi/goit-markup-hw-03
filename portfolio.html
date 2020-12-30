@@ -10,40 +10,37 @@
       integrity="sha512-ISS7cAi1PEhQ8jnbJpJZMd29NlhNj4AWYyLOSp2CE/CsHxTCu+r+t0D2yoJudVrd0/8fTVPUVDzY5Tvli75u/g=="
       crossorigin="anonymous"
     />
-    <link rel="stylesheet" href="./css/style.css" />
     <link rel="preconnect" href="https://fonts.gstatic.com" />
     <link
       href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
       rel="stylesheet"
     />
+    <link rel="stylesheet" href="./css/style.css" />
   </head>
   <body>
-    <!--навигация-->
-    <header class="header" style="display: flex">
-      <div class="conteiner" style="display: flex">
-        <nav class="nav-box">
+<!-------------------------------навигация------------------------------------->
+    <header class="header">
+      <div class="container" style="display: flex;">
+        <nav class="nav-box" style="display: flex;">
           <a href="./index.html" class="header-logo" style="display: flex"
-            ><span class="web">Web</span><span class="studio">Studio</span></a
-          >
+            ><span class="web">Web</span><span class="studio">Studio</span></a>
           <ul class="header-navigation list" style="display: flex">
             <li class="head-link">
               <a href="./studia.html" class="header-link link-studio"
-                ><p>студия</p></a
+                ><p>Студия</p></a
               >
             </li>
             <li class="head-link">
               <a href="./portfolio.html" class="header-link link-portfolio"
-                ><p>портфолио</p></a
-              >
+                ><p>Портфолио</p></a>
             </li>
-            <li class="head-l">
+            <li class="head-link">
               <a href="./contacts.html" class="header-link link-contacts"
-                ><p>контакты</p></a
-              >
+                ><p>Контакты</p></a>
             </li>
           </ul>
         </nav>
-        <!--контакты-->
+<!-------------------------------контакты-------------------------------------->
         <ul class="header-contacts list" style="display: flex">
           <li class="head-mail">
             <a
@@ -63,6 +60,7 @@
     <main class="maininfo">
       <!--портфолио-->
       <section class="portfolio-container">
+        <div class="container">
         <ul class="buttons-container" style="display: flex;">
           <li class="buttons-section">
             <button type="button" class="buttons">Все</button>
@@ -81,7 +79,7 @@
           </li>
         </ul>
         <ul class="portfolio list" style="display: flex;">
-            <li>
+            <li class="project-one">
             <img
               class="portfolio"
               src="./img/techno.png"
@@ -91,7 +89,7 @@
             <h3 class="name-project">Технокряк</h3>
             <p class="tipe-project">веб-сайт</p>
           </li>
-          <li>
+          <li class="project-one">
             <img
               class="portfolio"
               src="./img/design.jpg"
@@ -101,7 +99,7 @@
             <h3 class="name-project">Постер New Orlean vs Golden Star</h3>
             <p class="tipe-project">Дизайн</p>
           </li>
-          <li>
+          <li class="project-one">
             <img
               class="portfolio"
               src="./img/apps.jpg"
@@ -113,51 +111,50 @@
           </li>
         </ul>
         <ul class="portfolio list" style="display: flex;">
-          <li>
+          <li class="project-two">
             <img class="portfolio" src="./img/marketing.jpg" alt="маркетинг" />
             <h3 class="name-project">Проект Prime</h3>
             <p class="tipe-project">Маркетинг</p>
           </li>
-          <li>
+          <li class="project-two">
             <img class="portfolio" src="./img/apps2.jpg" alt="приложение" />
             <h3 class="name-project">Проект Boxes</h3>
             <p class="tipe-project">Приложение</p>
           </li>
-          <li>
+          <li class="project-two">
             <img class="portfolio" src="./img/website2.jpg" alt="вебсайт" />
             <h3 class="name-project">Inspiration has no Borders</h3>
             <p class="tipe-project">Веб-сайт</p>
           </li>
         </ul>
         <ul class="portfolio list" style="display: flex;">
-          <li>
+          <li class="project-thre">
             <img class="portfolio" src="./img/design2.jpg" alt="вебсайт" />
             <h3 class="name-project">Издание Limited Edition</h3>
             <p class="tipe-project">Дизайн</p>
           </li>
-          <li>
+          <li class="project-thre">
             <img class="portfolio" src="./img/marketing2.jpg" alt="маркетинг" />
             <h3 class="name-project">Проект LAB</h3>
             <p class="tipe-project">Маркетинг</p>
           </li>
-          <li>
+          <li class="project-thre">
             <img class="portfolio" src="./img/apps3.jpg" alt="приложение" />
             <h3 class="name-project">Growing Business</h3>
             <p class="tipe-project">Приложение</p>
           </li>
-        </ul>
+        </ul></div>
       </section>
     </main>
     <!-- Футер -->
     <footer class="footer">
-      <div class="logo-footer">
-        <a href="./index.html" class="logo">
+      <div class="container">
+        <a href="./index.html" class="footer-logo" style="display: flex;">
           <span class="web">Web</span>
           <span class="footerstudio">Studio</span></a
         >
-      </div>
       <address>
-        <p class="adres-map">
+        <p>
           <a
             href="https://www.google.com/maps/place/Lesi+Ukrainky+Blvd,+26,+Kyiv,+02000/@50.4265841,30.5361971,17z/data=!3m1!4b1!4m5!3m4!1s0x40d4cf0e033ecbe9:0x57a4dffefec77da0!8m2!3d50.4265807!4d30.5383858"
             class="footer-map"
@@ -176,6 +173,7 @@
           <a href="tel:+380934189039" class="footer-contacts">+380934189039</a>
         </p>
       </address>
+    </div>
     </footer>
   </body>
-  </html>
+</html>

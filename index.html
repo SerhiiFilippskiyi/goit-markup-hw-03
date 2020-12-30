@@ -18,9 +18,9 @@
     <link rel="stylesheet" href="./css/style.css" />
   </head>
   <body>
-    <!--навигация-->
+<!--навигация-->
     <header class="header">
-      <div class="conteiner" style="display: flex;">
+      <div class="container" style="display: flex;">
         <nav class="nav-box" style="display: flex;">
           <a href="./index.html" class="header-logo" style="display: flex"
             ><span class="web">Web</span><span class="studio">Studio</span></a>
@@ -40,7 +40,7 @@
             </li>
           </ul>
         </nav>
-        <!--контакты-->
+<!--контакты-->
         <ul class="header-contacts list" style="display: flex">
           <li class="head-mail">
             <a
@@ -60,53 +60,58 @@
     <main>
       <!-- основное -->
       <section class="baner">
+        <div class="container text-baner">
         <h1 class="baner-text">ЭФФЕКТИВНЫЕ РЕШЕНИЯ<br />ДЛЯ ВАШЕГО БИЗНЕСА</h1>
-        <ul class="list">
+        <ul class="baner-button list">
           <li>
             <button type="button" class="baner-buttons">заказать услугу</button>
           </li>
         </ul>
+      </div>
       </section>
       <!-- Преимущества -->
       <section class="post-benefits">
+        <div class="container benefits" style="display: flex;">
         <ul class="benefits list" style="display: flex">
-          <li>
+          <li class="text">
             <h3 class="post-title">Внимание к деталям</h3>
             <p class="post-text">
               Идейные соображения, а также начало повседневной работы по
               формированию позиции.
             </p>
           </li>
-          <li>
+          <li class="text">
             <h3 class="post-title">Пунктуальность</h3>
             <p class="post-text">
               Задача организации, в особенности же рамки и место обучения кадров
               влечет за собой.
             </p>
           </li>
-          <li>
+          <li class="text">
             <h3 class="post-title">Планирование</h3>
             <p class="post-text">
               Равным образом консультация с широким активом в значительной
               степени обуславливает.
             </p>
           </li>
-          <li>
+          <li class="text">
             <h3 class="post-title">Современные технологии</h3>
-            <p class="post-text-text">
+            <p class="post-text">
               Значимость этих проблем настолько очевидна, что реализация
               плановых заданий.
             </p>
           </li>
         </ul>
+      </div>
       </section>
-
-      <!-- фото -->
-      <section class="our-work">
+  <!-- фото -->
+  
+  <section class="our-work">
+        <div class="container work">
         <h2 class="post-work">Чем мы занимаемся</h2>
 
         <ul class="work list" style="display: flex">
-          <li>
+          <li class="photo-work">
             <img
               src="./img/box1.png"
               alt="code"
@@ -115,7 +120,7 @@
               class="photo-work"
             />
           </li>
-          <li>
+          <li class="photo-work">
             <img
               src="./img/box2.png"
               alt="css"
@@ -124,7 +129,7 @@
               class="photo-work"
             />
           </li>
-          <li>
+          <li class="photo-work">
             <img
               src="./img/box3.png"
               alt="css"
@@ -134,10 +139,12 @@
             />
           </li>
         </ul>
+      </div>
       </section>
 
-      <!-- команда -->
+ <!-- команда -->
       <section class="our-team">
+       <div class="container main-team">
         <h2 class="post-team">Наша команда</h2>
 
         <ul class="team-photo list" style="display: flex">
@@ -180,24 +187,25 @@
               alt="UI Designer"
               width="270"
               height="260"
+              class="photo-team"
             />
             <h3 class="name">Михаил Ермаков</h3>
             <p class="position">UI Designer</p>
           </li>
         </ul>
+      </div>
       </section>
     </main>
 
     <!-- Футер -->
     <footer class="footer">
-      <div class="logo-footer">
-        <a href="./index.html" class="logo">
+      <div class="container">
+        <a href="./index.html" class="footer-logo" style="display: flex;">
           <span class="web">Web</span>
           <span class="footerstudio">Studio</span></a
         >
-      </div>
       <address>
-        <p class="adres-map">
+        <p>
           <a
             href="https://www.google.com/maps/place/Lesi+Ukrainky+Blvd,+26,+Kyiv,+02000/@50.4265841,30.5361971,17z/data=!3m1!4b1!4m5!3m4!1s0x40d4cf0e033ecbe9:0x57a4dffefec77da0!8m2!3d50.4265807!4d30.5383858"
             class="footer-map"
@@ -216,6 +224,7 @@
           <a href="tel:+380934189039" class="footer-contacts">+380934189039</a>
         </p>
       </address>
+    </div>
     </footer>
   </body>
 </html>
