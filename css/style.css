@@ -45,6 +45,8 @@ li {
 /*логотип, меню навигации*/
 .header {
   background-color: var(--primary-white-color);
+  padding-top: 24px;
+  padding-bottom: 25px;
 }
 .container {
   width: 1200px;
@@ -58,8 +60,7 @@ li {
   line-height: 31px;
   letter-spacing: 0.03em;
   text-align: center;
-  padding-top: 24px;
-  padding-bottom: 25px;
+
   padding-right: 93px;
 }
 .web {
@@ -75,16 +76,14 @@ li {
   color: var(--title-text-color);
 }
 .header-navigation {
-  padding-top: 32px;
-  padding-bottom: 32px;
+  padding-top: 8px;
 }
 .head-link:not(:last-child) {
   padding-right: 50px;
 }
 .header-contacts {
   padding-left: 331px;
-  padding-bottom: 32px;
-  padding-top: 32px;
+  padding-top: 8px;
 }
 .head-phone {
   padding-left: 50px;
@@ -115,7 +114,8 @@ li {
 }
 /*банер и кнопка*/
 .baner {
-  margin-bottom: 94px;
+  padding-top: 200px;
+  padding-bottom: 200px;
   background-color: var(--secondary-background-color);
 }
 .text-baner {
@@ -129,7 +129,6 @@ li {
   line-height: 1.36;
   color: var(--primary-white-color);
   padding-bottom: 30px;
-  padding-top: 200px;
 }
 .baner-buttons {
   width: 200px;
@@ -146,12 +145,10 @@ button :focus {
   color: var(--accent-text-color);
   background-color: var(--title-text-color);
 }
-.baner-button {
-  padding-bottom: 200px;
-}
 /*текст приимущества*/
 .post-benefits {
-  margin-bottom: 94px;
+  padding-top: 94px;
+  padding-bottom: 94px;
 }
 .benefits {
   text-align: center;
@@ -181,7 +178,7 @@ button :focus {
 }
 /*примеры рабоы*/
 .our-work {
-  margin-bottom: 94px;
+  padding-bottom: 94px;
 }
 .post-work {
   font-family: Roboto;
@@ -200,6 +197,8 @@ button :focus {
 .our-team {
   background: #f5f4fa;
   margin-bottom: 6px;
+  padding-bottom: 88px;
+  padding-top: 94px;
 }
 .post-team {
   font-family: Roboto;
@@ -208,7 +207,6 @@ button :focus {
   text-align: center;
   letter-spacing: 0.03em;
   color: var(--title-text-color);
-  padding-top: 94px;
   padding-bottom: 50px;
 }
 .team-photo {
@@ -247,13 +245,14 @@ button :focus {
 
 .footer {
   background: var(--secondary-background-color);
+  padding-top: 60px;
+  padding-bottom: 60px;
 }
 .footer-logo {
   font-size: 26px;
   line-height: 1.19;
   letter-spacing: 0.03em;
   text-align: center;
-  padding-top: 60px;
   padding-bottom: 20px;
 }
 .footerstudio {
@@ -294,6 +293,7 @@ address :hover {
 .portfolio-container {
   background-color: var(--primary-white-color);
   padding-bottom: 64px;
+  padding-top: 94px;
 }
 .buttons-section :hover,
 .buttons-section :focus {
@@ -303,7 +303,6 @@ address :hover {
 .buttons-container {
   display: flex;
   justify-content: center;
-  padding-top: 94px;
   padding-bottom: 34px;
 }
 .buttons {
@@ -352,4 +351,10 @@ address :hover {
 .project-two,
 .project-thre {
   padding-bottom: 30px;
+}
+.project-diskription {
+  padding: 20px 24px;
+  border: 1px solid #eeeeee;
+  border-top: none;
+  box-sizing: border-box;
 }
